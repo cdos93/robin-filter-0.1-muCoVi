@@ -12,7 +12,7 @@
     'use strict';
     // filter list: edit as needed
     i
-    var filter = ["SWORDBAT", "The51Cents", "xXPUSSY_DESTROYERXx", "#MERKY", "HITLER DID NOTHING WRONG", "JUMPMAN ", "VOTE HILARY CLINTON ", "2MGoBlue2","letsencrypt","YEEZY, YEEZY WHAT'S GOOD?", "卐","VOTE TO STAY ~~~ VOTE TO STAY", "Skultis", "CATBRAH", "Robin Autovoter","Robin-Grow","Confuzet Auto stay voter 1.0","I automatically voted to grow, and so can you!","Vote Stay!","voted to","Voting will end in approximately","Robin Autogrower", "Spacemost", ];
+    var filter = ["SWORDBAT", "The51Cents", "xXPUSSY_DESTROYERXx", "#MERKY", "HITLER DID NOTHING WRONG", "JUMPMAN ", "VOTE HILARY CLINTON ", "2MGoBlue2","letsencrypt","YEEZY, YEEZY WHAT'S GOOD?", "卐","VOTE TO STAY ~~~ VOTE TO STAY", "Skultis", "CATBRAH", "Robin Autovoter","Robin-Grow","Confuzet Auto stay voter 1.0","I automatically voted to grow, and so can you!","Vote Stay!","voted to","Voting will end in approximately","Robin Autogrower", "Spacemost","NOTCH FAG", "_NWA" ];
     
     $(document).bind('DOMNodeInserted', function(e) {
       for(var i=0;i<filter.length;i++){
