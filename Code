@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  Fuck the robin vote spam that some india developers made
-// @author       GiveMeAllYourCats (editing by cdos93)
+// @author       GiveMeAllYourCats (edited filter for Noghsone... by cdos93)
 // @match        *.reddit.com/robin*
 // @grant        none
 // ==/UserScript==
