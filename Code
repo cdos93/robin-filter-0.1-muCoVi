@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  Fuck the robin vote spam that some india developers made
-// @author       GiveMeAllYourCats (edited filter for Noghsone... by cdos93)
+// @author       GiveMeAllYourCats (edited filter for  muCoVi... by cdos93)
 // @match        *.reddit.com/robin*
 // @grant        none
 // ==/UserScript==
@@ -11,7 +11,7 @@
 (function() {
     'use strict';
     
-    var filter = ["POTAT", "POTATEK", "YEEZY", "AAron_Balakay", "SWORDBAT", "The51Cents", "xXPUSSY_DESTROYERXx", "#MERKY", "HITLER DID NOTHING WRONG", "JUMPMAN ", "VOTE HILARY CLINTON ", "2MGoBlue2","letsencrypt","YEEZY, YEEZY WHAT'S GOOD?", "卐","VOTE TO STAY ~~~ VOTE TO STAY", "Skultis", "CATBRAH", "Robin Autovoter","Robin-Grow","Confuzet Auto stay voter 1.0","I automatically voted to grow, and so can you!","Vote Stay!","voted to","Voting will end in approximately","Robin Autogrower", "Spacemost", ];
+    var filter = ["windsor42", "OneBadKneeGrow", "POTAT", "POTATEK", "YEEZY", "AAron_Balakay", "SWORDBAT", "The51Cents", "xXPUSSY_DESTROYERXx", "#MERKY", "HITLER DID NOTHING WRONG", "JUMPMAN ", "VOTE HILARY CLINTON ", "2MGoBlue2","letsencrypt","YEEZY, YEEZY WHAT'S GOOD?", "卐","VOTE TO STAY ~~~ VOTE TO STAY", "Skultis", "CATBRAH", "Robin Autovoter","Robin-Grow","Confuzet Auto stay voter 1.0","I automatically voted to grow, and so can you!","Vote Stay!","voted to","Voting will end in approximately","Robin Autogrower", "Spacemost", ];
     
     $(document).bind('DOMNodeInserted', function(e) {
       for(var i=0;i<filter.length;i++){
